@@ -3,6 +3,7 @@
   imports = [
     ./autocmds.nix
     ./bufferline.nix
+    ./diagnostic.nix
     ./options.nix
     ./keymaps.nix
     # ./usercommands.nix
