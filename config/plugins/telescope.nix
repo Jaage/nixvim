@@ -68,7 +68,7 @@
       key = "<leader>sn";
       action.__raw = ''
         function() 
-          require('telescope.builtin').find_files { cwd = '/etc/nixos/home/programs/nvim' }
+          require('telescope.builtin').find_files { cwd = '~/.config/nixvim' }
         end
       '';
       options.desc = "[S]earch [N]eovim files";
