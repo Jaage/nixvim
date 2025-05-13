@@ -9,8 +9,10 @@
     };
     nixvim = {
       url = "github:nix-community/nixvim";
-      flake-parts.follows = "flake-parts";
-      nixpkgs.follows = "nixpkgs";
+      inputs = {
+        flake-parts.follows = "flake-parts";
+        nixpkgs.follows = "nixpkgs";
+      };
     };
   };
 
