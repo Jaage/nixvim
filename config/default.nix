@@ -4,6 +4,7 @@
     ./autocmds.nix
     ./bufferline.nix
     ./diagnostic.nix
+    ./highlight.nix
     ./options.nix
     ./keymaps.nix
     # ./usercommands.nix
