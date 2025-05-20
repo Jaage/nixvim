@@ -1,5 +1,4 @@
-{self, ...}: {
-
+{
   globals = {
     mapleader = " ";
     maplocalleader = " ";
@@ -17,7 +16,7 @@
     smartcase = true;
     signcolumn = "yes";
     updatetime = 250;
-    timeoutlen = 100;
+    timeoutlen = 300;
     splitright = true;
     splitbelow = true;
     list = true;
