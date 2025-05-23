@@ -5,12 +5,20 @@
     lazyLoad.settings = {
       cmd = [ "ConformInfo" ];
       event = [ "BufWritePre" ];
+      keys = [
+        {
+          __unkeyed-1 = "<leader>fb";
+          desc = "[F]ormat buffer";
+        }
+      ];
     };
     luaConfig.pre = ''
       local slow_format_filetypes = {}
     '';
     settings = {
-      default_format_opts = { lsp_format = "fallback"; };
+      default_format_opts = {
+        lsp_format = "fallback";
+      };
 
       format_on_save = ''
         function(bufnr)
