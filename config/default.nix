@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   # Import all your configuration modules here
   imports = [
     ./autocmds.nix
@@ -12,8 +13,10 @@
     ./plugins/blink-cmp.nix
     ./plugins/conform-nvim.nix
     ./plugins/gitsigns.nix
+    ./plugins/indent-blankline.nix
     ./plugins/lazydev.nix
     ./plugins/lz-n.nix
+    ./plugins/mini.nix
     ./plugins/telescope.nix
     ./plugins/todo-comments.nix
     ./plugins/treesitter.nix

@@ -7,8 +7,8 @@
       event = [ "BufWritePre" ];
       keys = [
         {
-          __unkeyed-1 = "<leader>fb";
-          desc = "[F]ormat buffer";
+          __unkeyed-1 = "<leader>fo";
+          desc = "[Fo]rmat buffer";
         }
       ];
     };
