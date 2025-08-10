@@ -17,6 +17,7 @@
     ./plugins/lazydev.nix
     ./plugins/lz-n.nix
     ./plugins/mini.nix
+    ./plugins/neo-tree.nix
     ./plugins/telescope.nix
     ./plugins/todo-comments.nix
     ./plugins/treesitter.nix
