@@ -7,6 +7,7 @@
     ./diagnostic.nix
     ./highlight.nix
     ./options.nix
+    ./performance.nix
     ./keymaps.nix
     # ./usercommands.nix
     ./lsp/lsp.nix
