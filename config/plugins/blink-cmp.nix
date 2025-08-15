@@ -2,10 +2,10 @@
   plugins.blink-ripgrep.enable = true;
   plugins.blink-cmp = {
     enable = true;
-   # lazyLoad.settings.event = [
-   #    "InsertEnter"
-   #    "CmdlineEnter"
-   #  ];
+    # lazyLoad.settings.event = [
+    #    "InsertEnter"
+    #    "CmdlineEnter"
+    #  ];
     settings = {
       appearance = {
         nerd_font_variant = "normal";
@@ -43,6 +43,9 @@
               prefix_min_len = 3;
               project_root_marker = ".git";
               project_root_fallback = true;
+              toggles = {
+                on_off = "<leader>tg";
+              };
             };
             score_offset = 200;
           };
