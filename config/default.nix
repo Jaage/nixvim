@@ -22,6 +22,7 @@
     ./plugins/snacks.nix
     ./plugins/telescope.nix
     ./plugins/todo-comments.nix
+    ./plugins/toggleterm.nix
     ./plugins/treesitter.nix
     ./plugins/whichkey.nix
   ];
