@@ -39,10 +39,12 @@
             module = "blink-ripgrep";
             name = "Ripgrep";
             opts = {
-              future_features.backend.use = "gitgrep-or-ripgrep";
+              backend = {
+                use = "gitgrep-or-ripgrep";
+                ripgrep.project_root_fallback = true;
+              };
               prefix_min_len = 3;
               project_root_marker = ".git";
-              project_root_fallback = true;
               toggles = {
                 on_off = "<leader>tg";
               };
