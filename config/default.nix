@@ -17,7 +17,6 @@
     ./plugins/indent-blankline.nix
     ./plugins/lazydev.nix
     ./plugins/lz-n.nix
-    ./plugins/mini.nix
     ./plugins/neo-tree.nix
     ./plugins/snacks.nix
     ./plugins/telescope.nix

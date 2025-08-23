@@ -1,5 +1,6 @@
 {
   imports = [
+    ./clangd.nix
     ./nil-ls.nix
     ./zls.nix
   ];
@@ -25,7 +26,10 @@
 
     keymaps.extra = [
       {
-        mode = [ "n" "x" ];
+        mode = [
+          "n"
+          "x"
+        ];
         key = "ga";
         action = "code_action";
         options.desc = "[G]oto Code [A]ction";
