@@ -1,5 +1,6 @@
 {
   imports = [
+    ./asm_lsp.nix
     ./clangd.nix
     ./nil-ls.nix
     ./zls.nix
