@@ -1,7 +1,7 @@
 {
   lsp.servers.asm_lsp = {
     enable = true;
-    settings = {
+    config = {
       filetypes = [
         "asm"
         "s"

@@ -11,18 +11,20 @@
 
   plugins.neo-tree = {
     enable = true;
-    closeIfLastWindow = true;
-    filesystem = {
-      filteredItems = {
-        hideDotfiles = false;
-        hideHidden = false;
-        visible = true;
+    settings = {
+      close_if_last_window = true;
+      filesystem = {
+        filtered_items = {
+          hide_dotfiles = false;
+          hide_hidden = false;
+          visible = true;
+        };
+        follow_current_file = {
+          enabled = true;
+          leave_dirs_open = true;
+        };
+        use_libuv_file_watcher.__raw = ''vim.fn.has "win32" ~= 1'';
       };
-      followCurrentFile = {
-        enabled = true;
-        leaveDirsOpen = true;
-      };
-      useLibuvFileWatcher.__raw = ''vim.fn.has "win32" ~= 1'';
     };
   };
 }
