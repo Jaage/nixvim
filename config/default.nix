@@ -16,6 +16,7 @@
     ./plugins/gitsigns.nix
     ./plugins/indent-blankline.nix
     ./plugins/lazydev.nix
+    ./plugins/leap.nix
     ./plugins/lz-n.nix
     ./plugins/neo-tree.nix
     ./plugins/snacks.nix
