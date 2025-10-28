@@ -54,5 +54,68 @@
       action = "<C-w><C-k>";
       options.desc = "Move focus to the upper window";
     }
+
+    # Harpoon replacements
+    {
+      mode = "n";
+      key = "<leader>a";
+      action.__raw = ''
+        function()
+          vim.cmd("argadd %")
+          vim.cmd("argdedup")
+        end
+      '';
+      options.desc = "Add current file to args";
+    }
+    {
+      mode = "n";
+      key = "<leader>e";
+      action.__raw = ''
+        function()
+          vim.cmd.args()
+        end
+      '';
+      options.desc = "Display args";
+    }
+    {
+      mode = "n";
+      key = "<C-j>";
+      action.__raw = ''
+        function()
+          vim.cmd("silent! 1argument")
+        end
+      '';
+      options.desc = "Jump to first arg";
+    }
+    {
+      mode = "n";
+      key = "<C-k>";
+      action.__raw = ''
+        function()
+          vim.cmd("silent! 2argument")
+        end
+      '';
+      options.desc = "Jump to second arg";
+    }
+    {
+      mode = "n";
+      key = "<C-l>";
+      action.__raw = ''
+        function()
+          vim.cmd("silent! 3argument")
+        end
+      '';
+      options.desc = "Jump to third arg";
+    }
+    {
+      mode = "n";
+      key = "<C-;>";
+      action.__raw = ''
+        function()
+          vim.cmd("silent! 4argument")
+        end
+      '';
+      options.desc = "Jump to fourth arg";
+    }
   ];
 }
