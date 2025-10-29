@@ -2,7 +2,7 @@
   plugins.fzf-lua = {
     enable = true;
     settings = {
-      fzf-opts = {
+      fzf_opts = {
         "--layout" = "default";
       };
       winopts = {
