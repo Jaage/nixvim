@@ -38,7 +38,7 @@
       {
         mode = "n";
         key = "gd";
-        action.__raw = "require('telescope.builtin').lsp_definitions";
+        action.__raw = "require('fzf-lua').lsp_definitions";
         options.desc = "[G]oto [D]efinition";
       }
       {
@@ -50,13 +50,13 @@
       {
         mode = "n";
         key = "gi";
-        action.__raw = "require('telescope.builtin').lsp_implementations";
+        action.__raw = "require('fzf-lua').lsp_implementations";
         options.desc = "[G]oto [I]mplementation";
       }
       {
         mode = "n";
         key = "gt";
-        action.__raw = "require('telescope.builtin').lsp_type_definitions";
+        action.__raw = "require('fzf-lua').lsp_typedefs";
         options.desc = "[G]oto [T]ype Definition";
       }
     ];

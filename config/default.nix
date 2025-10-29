@@ -15,12 +15,13 @@
     ./plugins/conform-nvim.nix
     ./plugins/gitsigns.nix
     ./plugins/indent-blankline.nix
+    ./plugins/fzf-lua.nix
     ./plugins/lazydev.nix
     ./plugins/leap.nix
     ./plugins/lz-n.nix
     ./plugins/neo-tree.nix
     ./plugins/snacks.nix
-    ./plugins/telescope.nix
+    # ./plugins/telescope.nix
     ./plugins/todo-comments.nix
     ./plugins/toggleterm.nix
     ./plugins/treesitter.nix
