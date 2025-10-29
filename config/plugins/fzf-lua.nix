@@ -2,6 +2,14 @@
   plugins.fzf-lua = {
     enable = true;
     settings = {
+      defaults = {
+        winopts = {
+          preview = {
+            layout = "horizontal";
+            horizontal = "right:60%";
+          };
+        };
+      };
       fzf_opts = {
         "--layout" = "default";
       };
