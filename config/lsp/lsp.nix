@@ -2,7 +2,8 @@
   imports = [
     ./asm_lsp.nix
     ./clangd.nix
-    ./nil-ls.nix
+    ./nil_ls.nix
+    ./rust_analyzer.nix
     ./zls.nix
   ];
 
